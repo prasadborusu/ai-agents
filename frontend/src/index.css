@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #f7f4ee;
+    color: #182026;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ebdF;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8cebe;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c2b5a0;
+}
+
+/* Card aesthetics */
+.ui-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(230, 222, 210, 0.7);
+  box-shadow: 0 2px 10px -2px rgba(80, 60, 40, 0.04), 0 1px 3px -1px rgba(80, 60, 40, 0.02);
+  border-radius: 1.25rem;
+}
+
+.ui-card:hover {
+  border-color: rgba(210, 198, 180, 0.9);
+}
+
+/* Halftone stipple grain effect */
+.halftone-texture {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 8px 8px;
+}
