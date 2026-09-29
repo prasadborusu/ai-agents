@@ -64,3 +64,5 @@ Apache-2.0 © 2026 Prasad Borusu & BYTE4 AI
 
 ## Support
 For issues and technical support, open a GitHub Issue.
+
+<!-- Certified Production Release v1.0.0 -->
